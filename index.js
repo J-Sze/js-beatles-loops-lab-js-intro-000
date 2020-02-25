@@ -7,10 +7,12 @@ var people = [];
   return people; 
 }
 
-function johnLennonFacts(fact) {
+function johnLennonFacts(facts) {
+  var newFacts = [];
   var i = 0
-  while( i < fact.length) {
-    console.log(`${fact[i]}!!!`);
+  while( i < facts.length) {
+    newFacts.push(`${facts[i]}!!!`);
+    i++;
   }
-  return johnLennonFacts(10);
+  return newFacts;
 }
