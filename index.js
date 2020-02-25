@@ -20,6 +20,6 @@ function johnLennonFacts(facts) {
 function iLoveTheBeatles(num) {
   var cheer = [];
   do {cheer.push(`I love the Beatles!`);
-  } while (num > 15);
+  } while (num < 15);
   return cheer; 
 }
