@@ -21,6 +21,6 @@ function iLoveTheBeatles(num) {
   var cheer = [];
   do {cheer.push(`I love the Beatles!`);
   num++;
-  } while (i < 15);
+  } while (num < 15);
   return cheer; 
 }
